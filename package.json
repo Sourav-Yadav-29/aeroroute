@@ -1,0 +1,20 @@
+{
+  "name": "aeroroute",
+  "version": "1.0.0",
+  "description": "AeroRoute - Autonomous Drone Delivery Mission Planner",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "serve": "node server.js",
+    "dev": "node server.js",
+    "test": "python -m unittest discover -s backend -v"
+  },
+  "keywords": [
+    "aeroroute",
+    "drone",
+    "mission-planner",
+    "dijkstra"
+  ],
+  "author": "",
+  "license": "MIT"
+}

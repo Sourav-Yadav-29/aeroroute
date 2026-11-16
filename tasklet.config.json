@@ -1,0 +1,6 @@
+{
+  "name": "aeroroute",
+  "displayName": "AeroRoute · Drone Delivery Planner",
+  "description": "Plan priority-aware drone deliveries with Dijkstra shortest paths, a greedy delivery order, and battery-safe return routes.",
+  "instantAppType": "html"
+}
