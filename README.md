@@ -1,6 +1,6 @@
 # AeroRoute — Autonomous Drone Delivery Mission Planner
 
-A comprehensive, zero-dependency educational application demonstrating **Graph Algorithms, Dijkstra Shortest Paths, Priority-Aware Scheduling, and Battery-Constrained Tour Optimization** for autonomous drone delivery fleets.
+A comprehensive, zero-dependency mission planning platform demonstrating **Graph Algorithms, Dijkstra Shortest Paths, Priority-Aware Scheduling, and Battery-Constrained Tour Optimization** for autonomous drone delivery fleets.
 
 Designed with the **ThoughtStream Design System** — featuring a minimalist, high-contrast visual hierarchy, sharp geometric typography, and an interactive schematic flight map.
 
@@ -60,7 +60,7 @@ All 28 tests run in `< 1.0s` with zero external dependencies.
 ## 📦 Project Architecture
 
 ```text
-ADA/
+aeroroute/
 ├── index.html                 # Showcase landing page & algorithm walk-through
 ├── planner.html               # Interactive Mission Planner & real-time canvas UI
 ├── styles.css                 # ThoughtStream design system styles & CSS variables
@@ -129,11 +129,31 @@ Built following the **ThoughtStream Design System**:
 
 ---
 
-## 👥 Sharing with Friends / Evaluators
+## 📦 Deployment & Verification
 
-To share this project:
-1. Zip the entire `ADA/` folder (or push to a Git repository).
-2. Recipients can immediately run:
-   - **`npm start`** and visit `http://localhost:3000`
-   - or **`python run.py`** and visit `http://localhost:8080`
-   - and run tests with **`npm test`** (28/28 passing).
+To run and verify AeroRoute locally:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Sourav-Yadav-29/aeroroute.git
+   cd aeroroute
+   ```
+
+2. **Launch the application:**
+   - **Node.js runtime:**
+     ```bash
+     npm start
+     ```
+     Access the web interface at **[http://localhost:3000](http://localhost:3000)**.
+   - **Python runtime:**
+     ```bash
+     python run.py --port 8080
+     ```
+     Access the web interface at **[http://127.0.0.1:8080](http://127.0.0.1:8080)**.
+
+3. **Run validation tests:**
+   ```bash
+   npm test
+   # or: python -m unittest discover -s backend -v
+   ```
+   Ensures all 28 automated test specifications pass cleanly.
