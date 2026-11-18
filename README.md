@@ -1,5 +1,11 @@
 # AeroRoute — Autonomous Drone Delivery Mission Planner
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-1F5C4A?style=for-the-badge&logo=github)](https://sourav-yadav-29.github.io/aeroroute/)
+[![Tests Passing](https://img.shields.io/badge/Tests-28%2F28%20Passing-4C9A5B?style=for-the-badge)](https://github.com/Sourav-Yadav-29/aeroroute)
+
+> 🌐 **Live Application URL:** [https://sourav-yadav-29.github.io/aeroroute/](https://sourav-yadav-29.github.io/aeroroute/)  
+> 🎯 **Interactive Mission Planner:** [https://sourav-yadav-29.github.io/aeroroute/planner.html](https://sourav-yadav-29.github.io/aeroroute/planner.html)
+
 A comprehensive, zero-dependency mission planning platform demonstrating **Graph Algorithms, Dijkstra Shortest Paths, Priority-Aware Scheduling, and Battery-Constrained Tour Optimization** for autonomous drone delivery fleets.
 
 Designed with the **ThoughtStream Design System** — featuring a minimalist, high-contrast visual hierarchy, sharp geometric typography, and an interactive schematic flight map.
